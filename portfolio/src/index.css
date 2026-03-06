@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  background:
+    radial-gradient(circle at 80% 20%, rgba(255, 0, 150, 0.3), transparent 40%),
+    radial-gradient(circle at 20% 80%, rgba(0, 255, 255, 0.2), transparent 40%),
+    linear-gradient(135deg, #0f0c29, #302b63, #1a1a2e);
+
+  background-attachment: fixed;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

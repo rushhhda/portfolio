@@ -1,0 +1,15 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.about p {
+  text-align: center;
+  width: 40%;
+  font-weight: bolder;
+  font-size: larger;
+}

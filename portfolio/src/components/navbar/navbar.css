@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto; /* center horizontally */
+  flex-wrap: wrap;
+  gap: 40px; /* much smaller spacing between buttons */
+  width: 100%;
+  max-width: 1000px; /* optional constraint */
+}
+.navbar a {
+  border: none;
+  background: none;
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+.line {
+  width: 40%;
+  height: 0.5px;
+  background-color: white;
+  margin: 10px auto;
+}
+.navbar a.resume {
+  background: linear-gradient(to bottom, #3c153c, #4a1e67);
+
+  padding: 8px 16px;
+  border-radius: 5px;
+}

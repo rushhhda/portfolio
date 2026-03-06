@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  gap: 5px; /* small spacing between header items */
+}
+.role {
+  color: #cca4cd;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 50px; /* reduce space between action buttons */
+}
+.header h1,
+.header h2,
+.header h4 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  margin: 2px;
+  font-size: 2em;
+}
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.section img {
+  height: 250px;
+  width: 250px;
+  margin-top: 30px;
+  background: linear-gradient(45deg, #ff4ecd, #00f0ff);
+  padding: 5px;
+  box-shadow:
+    0 0 20px rgba(255, 0, 150, 0.6),
+    0 0 40px rgba(0, 255, 255, 0.4);
+}
+.header a {
+  height: fit-content;
+  width: fit-content;
+  padding: 15px;
+  background: linear-gradient(to right, #3c153c, #6a3376);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+}
+.line {
+  width: 40%;
+  height: 0.5px;
+  background-color: rgba(255, 255, 255, 0.54);
+}
